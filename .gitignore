@@ -1,0 +1,7 @@
+*.jpg
+*.png
+epoch_*
+*.txt
+*.d2-net
+*.pth
+*.mp4
