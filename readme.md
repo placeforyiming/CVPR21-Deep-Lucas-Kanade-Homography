@@ -26,7 +26,8 @@ We also provide the txt file about all 6k images sampled for the tesing used in 
 
 ## How to run? 
 
-Download data into Dataset folder. Pull and activate a tensorflow 2 docker container: tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
+Download data into Dataset folder. 
+Pull and activate a tensorflow 2 docker container: tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
 Install all dependency packages: bash install_dependency.sh
 
 1. To train the single stage regression network for homography, run /model_ours/train_regression_original.py
