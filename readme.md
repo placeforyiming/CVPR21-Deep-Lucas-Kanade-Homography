@@ -25,7 +25,7 @@ We also provide the txt file about all 6k images sampled for the tesing used in 
 ## Code and checkpoints
 
 We submit code with paper for review. If the paper can be accepted, we will open source code for both our model and baseline methods with checkpoints here.
-
+https://drive.google.com/file/d/1karVQMlh3FOMMa2cTYS35GdehdAt7lW5/view?usp=sharing
 ## How to run? 
 
 Download data into Dataset folder.
