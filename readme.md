@@ -44,5 +44,5 @@ Run jupyter notebook in ./model_ours to see the feature map.
 
 You also can explore the traditional SIFT+RANSAC on three datasets by opening /model_SIFT/SIFAT_ransac.ipynb or try our implementated CLKN.
 
-Our Lucas-Kanade layer is implemented with Tensorflow 2.0. It can serve as part of the trainble network or can be used independently like the traditional hierarchy  lucas-kanade. If you find part of our code is useful, please cite our paper below:
+Our Lucas-Kanade layer is implemented with Tensorflow 2.0. It can serve as part of the trainble network or can be used independently like the traditional hierarchy  lucas-kanade. If you find part of our code is useful for your project, please cite our paper below:
 
