@@ -16,31 +16,32 @@ For MSCOCO, we are using 2014 train and val, which is here:
 http://cocodataset.org/#download.
 
 Download 2014 Train images and 2014 Val images, extract them under /CVPR21-Deep-Lucas-Kanade-Homography/Dataset/MSCOCO. Generating the training and testing sample by running:
+
 python3 generate_training_sample.py
+
 python3 generate_testing_sample.py
 
 We also provide the txt file about all 6k images sampled for the tesing used in this paper.  
 
 
-## Code and checkpoints
-
-We submit code with paper for review. If the paper can be accepted, we will open source code for both our model and baseline methods with checkpoints here.
-https://drive.google.com/file/d/1karVQMlh3FOMMa2cTYS35GdehdAt7lW5/view?usp=sharing
 ## How to run? 
 
 Download data into Dataset folder.
 
-Put checkpoints into ./model_ours/checkpoints/
+1. To train the single stage regression network for homography, run /model_ours/train_regression_original.py
 
-Run jupyter notebook in ./model_ours to play the model
+2. To train the multi-stage regression network for homography, run /model_ours/train_regression_first.py, /model_ours/train_regression_second.py and /model_ours/train_regression_third.py in order.
 
-For training:
- 
- Edite several top lines in train_level_*.py
+3. To train our DLKFM for homography, run /model_ours/train_level_one.py, /model_ours/train_level_two.py and /model_ours/train_level_three.py in order.
 
-For testing:
+## Explore more?
+Dowanload the pretrained checkpoint from : https://drive.google.com/file/d/1karVQMlh3FOMMa2cTYS35GdehdAt7lW5/view?usp=sharing
+Extract and put them into ./model_ours/checkpoints/
 
- Edite several top lines in test_level_*.py
+Run jupyter.bash to open the jupyter notebook in docker.
 
+Run jupyter notebook in ./model_ours to see the faeture map.
+
+You also can explore the traditional SIFT+RANSAC on three datasets by opening /model_SIFT/SIFAT_ransac.ipynb
 
 
