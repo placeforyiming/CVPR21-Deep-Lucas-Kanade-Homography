@@ -9,12 +9,18 @@
 ## Dataset
 The Google Map and Google Earth data used for both training and tesing can be downloaded here: 
 https://drive.google.com/file/d/1-voX6dJtIb1Dbq9_m2Ed9xvPhCjM_FLo/view?usp=sharing
+After downloading, extract it. Move ./Dataset/GoogleEarth/* to /CVPR21-Deep-Lucas-Kanade-Homography/Dataset/GoogleEarth/ and ./Dataset/GoogleMap/* to /CVPR21-Deep-Lucas-Kanade-Homography/Dataset/GoogleMap/ 
 
 
 For MSCOCO, we are using 2014 train and val, which is here:
 http://cocodataset.org/#download.
 
-We also provide the txt file about all 6k images sampled for the tesing of this paper.
+Download 2014 Train images and 2014 Val images, extract them under /CVPR21-Deep-Lucas-Kanade-Homography/Dataset/MSCOCO. Generating the training and testing sample by running:
+python3 generate_training_sample.py
+python3 generate_testing_sample.py
+
+We also provide the txt file about all 6k images sampled for the tesing used in this paper.  
+
 
 ## Code and checkpoints
 
@@ -35,3 +41,6 @@ For training:
 For testing:
 
  Edite several top lines in test_level_*.py
+
+
+

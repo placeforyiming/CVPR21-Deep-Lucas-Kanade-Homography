@@ -1,0 +1,2 @@
+model_checkpoint_path: "epoch_16_full"
+all_model_checkpoint_paths: "epoch_16_full"

@@ -1,0 +1,2 @@
+model_checkpoint_path: "epoch_10template_full"
+all_model_checkpoint_paths: "epoch_10template_full"

@@ -5,3 +5,5 @@ epoch_*
 *.d2-net
 *.pth
 *.mp4
+*.pyc
+./model_ours/checkpoints/*/*
