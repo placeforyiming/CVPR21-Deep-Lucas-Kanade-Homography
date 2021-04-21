@@ -40,8 +40,8 @@ Extract and put them into ./model_ours/checkpoints/
 
 Run jupyter.bash to open the jupyter notebook in docker.
 
-Run jupyter notebook in ./model_ours to see the faeture map.
+Run jupyter notebook in ./model_ours to see the feature map.
 
-You also can explore the traditional SIFT+RANSAC on three datasets by opening /model_SIFT/SIFAT_ransac.ipynb
+You also can explore the traditional SIFT+RANSAC on three datasets by opening /model_SIFT/SIFAT_ransac.ipynb or try our implementated CLKN.
 
 
