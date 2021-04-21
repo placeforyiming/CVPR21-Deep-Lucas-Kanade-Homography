@@ -26,7 +26,8 @@ We also provide the txt file about all 6k images sampled for the tesing used in 
 
 ## How to run? 
 
-Download data into Dataset folder.
+Download data into Dataset folder. Pull and activate a tensorflow 2 docker container: tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
+Install all dependency packages: bash install_dependency.sh
 
 1. To train the single stage regression network for homography, run /model_ours/train_regression_original.py
 
@@ -38,7 +39,7 @@ Download data into Dataset folder.
 Dowanload the pretrained checkpoint from : https://drive.google.com/file/d/1karVQMlh3FOMMa2cTYS35GdehdAt7lW5/view?usp=sharing
 Extract and put them into ./model_ours/checkpoints/
 
-Run jupyter.bash to open the jupyter notebook in docker.
+Run jupyter.sh to open the jupyter notebook in docker.
 
 Run jupyter notebook in ./model_ours to see the feature map.
 
