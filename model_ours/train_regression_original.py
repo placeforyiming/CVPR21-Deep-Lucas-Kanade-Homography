@@ -30,19 +30,19 @@ parser.add_argument('--dataset_name', action="store", dest= "dataset_name",defau
 
 
 
-parser.add_argument('--learning_rate', action="store", dest="learning_rate", type=float, default=0.0000004,help='learning_rate')
+parser.add_argument('--learning_rate', action="store", dest="learning_rate", type=float, default=0.0001,help='learning_rate')
 
 parser.add_argument('--batch_size', action="store", dest="batch_size", type=int, default=16,help='batch_size')
 
 
 parser.add_argument('--save_eval_f', action="store", dest="save_eval_f", type=int, default=400000,help='save and eval after how many iterations')
 
-parser.add_argument('--epoch_start', action="store", dest="epoch_start", type=int, default=86,help='train from which epoch')
+parser.add_argument('--epoch_start', action="store", dest="epoch_start", type=int, default=1,help='train from which epoch')
 
-parser.add_argument('--epoch_decay', action="store", dest="epoch_decay", type=int, default=5,help='how many epoch to over lr by 2')
+parser.add_argument('--epoch_decay', action="store", dest="epoch_decay", type=int, default=10,help='how many epoch to over lr by 2')
 
 
-parser.add_argument('--epoch_num', action="store", dest="epoch_num", type=int, default=15,help='how many epochs to train')
+parser.add_argument('--epoch_num', action="store", dest="epoch_num", type=int, default=40,help='how many epochs to train')
 
 
 
