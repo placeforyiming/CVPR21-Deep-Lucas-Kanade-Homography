@@ -48,3 +48,18 @@ You also can explore the traditional SIFT+RANSAC on three datasets by opening /m
 
 Our Lucas-Kanade layer is implemented with Tensorflow 2. It can serve as part of the trainable network or can be used independently like the traditional Hierarchy  Lucas-Kanade. If you find part of our code is useful for your project, please cite our paper below:
 
+
+
+## Publication ##
+Please cite the papers if you use this code:
+
+```
+@inproceedings{zhao2021deep,
+  title={Deep Lucas-Kanade Homography for Multimodal Image Alignment},
+  author={Zhao, Yiming and Huang, Xinming and Zhang, Ziming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15950--15959},
+  year={2021}
+}
+
+```
